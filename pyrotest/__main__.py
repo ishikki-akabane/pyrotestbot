@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pytgcalls import idle
 import os
-from pyrotest import API_ID, API_HASH, BOT_TOKEN, DOWNLOAD_DIRECTORY
+from pyrotest import API_ID, API_HASH, BOT_TOKEN, DOWNLOAD_DIRECTORY, LOGGER
 import asyncio
 
 async def load_start():
