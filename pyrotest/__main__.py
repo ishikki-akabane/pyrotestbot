@@ -4,7 +4,10 @@ import os
 from pyrotest import API_ID, API_HASH, BOT_TOKEN, DOWNLOAD_DIRECTORY
 import asyncio
 
-
+async def load_start():
+    LOGGER.info("[INFO]: STARTED")
+    
+    
 Client(
     name="pyrotest",
     api_id=API_ID,
