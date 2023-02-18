@@ -4,9 +4,10 @@ import time
 from pyrogram import Client
 
 
-API_KEY = 
+API_KEY = 123456789
 API_HASH = ""
 BOT_TOKEN = ""
+DOWNLOAD_DIRECTORY = "./"
 
 # enable logging
 FORMAT = "[Blue] %(message)s"
